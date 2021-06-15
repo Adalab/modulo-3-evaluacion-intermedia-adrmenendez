@@ -11,8 +11,11 @@ body {
   background: linear-gradient(#dbf3fa, white);
   min-height: 100vh;
   min-width: 100%;
+  text-align: center;
+  margin-top: 60px;
 }
 .pokelist {
+  margin-top: 60px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -23,6 +26,7 @@ body {
     margin: 0 auto;
   }
   &_item {
+    cursor: pointer;
     margin: 12px;
     border-radius: 8px;
     width: 150px;
@@ -57,4 +61,8 @@ body {
       }
     }
   }
+}
+
+.favorite {
+  border: cadetblue 3px solid;
 }
